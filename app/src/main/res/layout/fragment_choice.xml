@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Tyler Radke -->
+<!-- Color Fragments App -->
+<!-- fragment_choice.xml -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    tools:context=".ChoiceFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <!-- Red fragment text view -->
+
+        <TextView
+            android:id="@+id/redText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@color/red"
+            android:padding="16dp"
+            android:text="RED FRAGMENT"
+            android:textSize="16sp" />
+
+
+        <!-- Blue fragment text view -->
+
+        <TextView
+            android:id="@+id/blueText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@color/blue"
+            android:padding="16dp"
+            android:text="BLUE FRAGMENT"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</FrameLayout>
